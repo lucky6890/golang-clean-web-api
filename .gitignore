@@ -18,15 +18,15 @@ build/
 # Go modules cache
 .cache/
 go.sum
-go.mod  # If you are not using modules or want to ignore changes to go.mod
+go.mod
 
 # IDE and editor files
-.idea/ # IntelliJ IDEA / GoLand
-.vscode/ # Visual Studio Code
+.idea/
+.vscode/
 *.sublime-project
 *.sublime-workspace
-.DS_Store # macOS specific
-Thumbs.db # Windows specific
+.DS_Store
+Thumbs.db
 
 # Logs and temporary files
 *.log
