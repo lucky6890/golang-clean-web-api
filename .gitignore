@@ -1,2 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Output of `go build`
+# You may want to ignore these for specific platforms
+# or if you don't commit binaries
+# For example, if you build for multiple architectures:
+bin/
+build/
+
+# Dependency caches
+# Go modules cache
+.cache/
+go.sum
+go.mod  # If you are not using modules or want to ignore changes to go.mod
+
+# IDE and editor files
+.idea/ # IntelliJ IDEA / GoLand
+.vscode/ # Visual Studio Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Logs and temporary files
 *.log
-.vscode
+*.tmp
+tmp/
