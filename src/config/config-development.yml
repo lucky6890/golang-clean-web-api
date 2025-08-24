@@ -1,5 +1,5 @@
 server:
-  internalPort: 5005
+  internalPort: 5006
   externalPort: 5005
   runMode: debug
   domain: localhost
